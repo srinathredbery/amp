@@ -9,12 +9,13 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   </head>
   <body>
-    <amp-geolocation layout="fixed" width="1" height="1">
-      <template type="amp-mustache">
-        <p>Latitude: {{latitude}}</p>
-        <p>Longitude: {{longitude}}</p>
-      </template>
-    </amp-geolocation>
+   <amp-geolocation layout="fixed" width="1" height="1" provider="browser">
+  <template type="amp-mustache">
+    <p>Latitude: {{latitude}}</p>
+    <p>Longitude: {{longitude}}</p>
+  </template>
+</amp-geolocation>
+
   </body>
 </html>
 
